@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Students"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_x="300px"
+        android:layout_y="13px"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write your comment"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_x="160px"
+        android:layout_y="150px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write :"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_x="99px"
+        android:layout_y="290px"/>
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_x="320px"
+        android:layout_y="290px"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_x="320px"
+        android:layout_y="400px"/>
+
+    <Button
+        android:id="@+id/btnid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="20dp"
+        android:layout_x="20dp"
+        android:layout_y="500dp" />
+
+
+
+</AbsoluteLayout>

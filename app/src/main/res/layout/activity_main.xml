@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtsignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/idandpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Give your id and passwod for sign in:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/txtsignin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User name :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@id/idandpass"
+        android:layout_marginTop="60dp"
+        />
+
+    <EditText
+        android:id="@+id/editusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/username"
+        android:layout_alignTop="@id/username"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/txtpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@id/username"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtpassword"
+        android:layout_alignTop="@id/txtpassword"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@id/txtpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>
